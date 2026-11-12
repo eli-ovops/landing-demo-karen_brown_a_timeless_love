@@ -1,0 +1,25 @@
+schema_version: "1.0"
+status: "draft-local-l0"
+site_id: "karen-brown-timeless-love-concept"
+project: "Independent local concept preview for Karen Brown — A Timeless Love"
+confirmed_by: "User — local Demo creation authorization"
+confirmed_at: "2026-08-21"
+no_secret_values: true
+server: { reference: "not-applicable-local-only", owner: "not-applicable" }
+environments:
+  preview: { enabled: false, public_url: null, admin_path: null }
+  production: { enabled: false, public_url: null, admin_path: null }
+repository: { repo_url: "not-applicable", approved_branch: "not-applicable", production_branch: "main", commit_sha_required: false }
+architecture: "static"
+toolchain: { node: null, pnpm_major: null, package_manager: null, lockfile: null, payload_version: null }
+runtime: { app_port_reference: null, health_port_reference: null }
+deployment: { mechanism: "local", call_carrier: "local-file-preview", forced_command_reference: null, allowed_modes: ["local-only"], guide_reference: "README.md", production_approval_required: true, authorization_reference: "current user message", deploy_owner: null, validate_required: "not-applicable", status_required: false, eli_preview_exception: false }
+storage: { code_reference: "local workspace", releases_reference: "not-applicable", database_reference: "not-applicable", media_reference: "local assets directory" }
+database: { type: "other", credential_secret_ref: null, business_data_in_file: false }
+media: { credential_secret_ref: null, managed_separately_from_code: false }
+roles: { owner: "User", developer: "Codex", server_owner: "not-applicable" }
+migration: { required: false, required_for_localization: false, procedure_reference: "not-applicable", production_approval_required: true }
+backup: { procedure_reference: "not-applicable-local-only", database_and_media_separate: true, restore_rehearsal_required: false }
+release_retention: { policy_reference: "not-applicable", previous_accepted_release_required: false }
+health_checks: { public_page: "local browser QA only", application: null, admin: null, api: null }
+rollback: { procedure_reference: "delete local concept only with user authorization", explicit_authorization_required: true }

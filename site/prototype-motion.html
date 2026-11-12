@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A local motion and interface exploration for Karen Brown, A Timeless Love." />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="prototype-motion.css" />
+    <title>Karen Brown | Motion directions</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#prototype-main">Skip to content</a>
+    <header class="proto-header">
+      <a class="wordmark" href="index.html" aria-label="Return to Karen Brown concept home">Karen Brown <span>A Timeless Love</span></a>
+      <a class="quiet-link" href="mailto:[REDACTED_EMAIL]">Email Karen</a>
+    </header>
+
+    <main id="prototype-main">
+      <section class="direction direction-a" data-direction="a" aria-labelledby="a-title">
+        <div class="a-hero">
+          <div class="a-copy enter" style="--delay: 80ms">
+            <p class="service-line">Karen Brown, Wedding Celebrant</p>
+            <h1 id="a-title">Wedding ceremonies, written and led around <em>you.</em></h1>
+            <p class="intro">Karen plans and leads personalised wedding ceremonies across the Blue Mountains and New South Wales.</p>
+            <a class="button" href="mailto:[REDACTED_EMAIL]">Email Karen <span aria-hidden="true">→</span></a>
+          </div>
+          <figure class="a-media enter" style="--delay: 150ms">
+            <img src="assets/karen-ceremony-hero-concept-v2.jpg" alt="An empty outdoor ceremony setting with timber chairs, eucalyptus trees and distant mountain ridges." />
+          </figure>
+        </div>
+        <section class="a-after reveal" aria-label="Karen Brown experience">
+          <p>Full-time celebrant since 2014. Over 800 people married.</p>
+          <p>Personalised planning and ceremony-day support, shaped around the people in the moment.</p>
+        </section>
+      </section>
+
+      <section class="direction direction-b" data-direction="b" aria-labelledby="b-title" hidden>
+        <div class="b-shell">
+          <div class="b-opening">
+            <p class="service-line enter" style="--delay: 50ms">Karen Brown, Wedding Celebrant</p>
+            <h1 id="b-title" class="enter" style="--delay: 100ms">A wedding ceremony led by Karen, shaped around the two of you.</h1>
+          </div>
+          <figure class="b-media enter" style="--delay: 180ms">
+            <img src="assets/karen-vow-detail-concept-v2.jpg" alt="A blank folded card, pen, linen ribbon and native flowers in soft window light." />
+          </figure>
+          <div class="b-essay reveal">
+            <p>Karen is a full-time celebrant. She starts by listening, then plans the ceremony and supports the moment on the day.</p>
+            <a class="button" href="mailto:[REDACTED_EMAIL]">Email Karen <span aria-hidden="true">→</span></a>
+          </div>
+          <section class="b-points reveal" aria-label="Karen Brown service focus">
+            <p>Personalised words</p>
+            <p>Thoughtful planning</p>
+            <p>Calm ceremony-day support</p>
+          </section>
+        </div>
+      </section>
+
+      <section class="direction direction-c" data-direction="c" aria-labelledby="c-title" hidden>
+        <div class="c-hero">
+          <figure class="c-media"><img src="assets/blue-mountains-close-concept-v2.jpg" alt="Eucalyptus trees and flowering native branches above a Blue Mountains valley." /></figure>
+          <div class="c-overlay"></div>
+          <div class="c-copy enter" style="--delay: 70ms">
+            <p class="service-line">Wedding Celebrant in the Blue Mountains</p>
+            <h1 id="c-title">A wedding ceremony with a sense of place and room for every promise.</h1>
+            <a class="button button-rose" href="mailto:[REDACTED_EMAIL]">Email Karen <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <section class="c-path" aria-label="How Karen works with couples">
+          <article class="reveal"><h2>Meet</h2><p>Start with the people, promises and place that make the occasion yours.</p></article>
+          <article class="reveal"><h2>Shape</h2><p>Bring the ceremony together with personal words and thoughtful planning.</p></article>
+          <article class="reveal"><h2>Celebrate</h2><p>Arrive to a ceremony supported with calm attention on the day.</p></article>
+        </section>
+      </section>
+    </main>
+
+    <nav class="direction-switcher" aria-label="Browse visual directions">
+      <button type="button" data-action="previous" aria-label="Previous direction">←</button>
+      <span data-direction-label>A - Invitation</span>
+      <button type="button" data-action="next" aria-label="Next direction">→</button>
+    </nav>
+    <script src="prototype-motion.js"></script>
+  </body>
+</html>
